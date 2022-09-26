@@ -1,0 +1,9 @@
+Protocolo de comunucaciiones
+
+MAGIC NUMBER /0x11
+COMANDO		/0x01 //ulrasonidos ,distanacia
+PARAM 1		dirs 0x01,02,03,04 Direccion (arriba ,iz,der,abaj)
+PARAM 2		velocidad	
+PARAM 3		Reservado 0x00 //id del sensor 0xXX
+PARAM 4		0x00
+MD5/SHA2
